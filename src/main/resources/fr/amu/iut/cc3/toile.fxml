@@ -29,12 +29,18 @@
     </Pane>
    <VBox layoutX="25.0" layoutY="25.0" prefHeight="420.0" prefWidth="233.0">
       <children>
-         <TextField prefHeight="0.0" prefWidth="261.0" text="Compétence 1 - Réaliser " />
-         <TextField text="Compétence 2 - Optimiser" />
-         <TextField text="Compétence 3 - Administrer  " />
-         <TextField text="Compétence 4 - Gérer " />
-         <TextField text="Compétence 5 - Conduire " />
-         <TextField text="Compétence 6 - Collaborer " />
+         <Label text="Compétence 1 - Réaliser " />
+         <TextField prefHeight="24.0" prefWidth="130.0" />
+         <Label text="Compétence 2 - Optimiser " />
+         <TextField />
+         <Label text="Compétence 3 - Administrer " />
+         <TextField />
+         <Label text="Compétence 4 - Gérer " />
+         <TextField />
+         <Label text="Compétence 5 - Conduire " />
+         <TextField />
+         <Label text="Compétence 6 - Collaborer " />
+         <TextField />
          <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" style="-fx-alignment: BOTTOM_LEFT;" text="Tracer" />
          <VBox prefHeight="0.0" prefWidth="232.0">
             <children>
