@@ -30,17 +30,17 @@
    <VBox layoutX="25.0" layoutY="25.0" prefHeight="420.0" prefWidth="233.0">
       <children>
          <Label text="Compétence 1 - Réaliser " />
-         <TextField prefHeight="24.0" prefWidth="130.0" />
+         <TextField id="comp1" prefHeight="24.0" prefWidth="130.0" />
          <Label text="Compétence 2 - Optimiser " />
-         <TextField />
+         <TextField id="comp2" />
          <Label text="Compétence 3 - Administrer " />
-         <TextField />
+         <TextField id="comp3" />
          <Label text="Compétence 4 - Gérer " />
-         <TextField />
+         <TextField id="comp4" />
          <Label text="Compétence 5 - Conduire " />
-         <TextField />
+         <TextField id="comp5" />
          <Label text="Compétence 6 - Collaborer " />
-         <TextField />
+         <TextField id="comp6" />
          <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" style="-fx-alignment: BOTTOM_LEFT;" text="Tracer" />
          <VBox prefHeight="0.0" prefWidth="232.0">
             <children>
